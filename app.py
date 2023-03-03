@@ -3,11 +3,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return '<h1>hello world ! - Pyflask Demo</h1>'
+    return '<h1>Bonjour Stack Inc ! - Pyflask Demo</h1>'
 
 @app.route('/version')
 def get_version():
-    return '<h1>App version : <b>1</b></h1>'
+    return '<h1>App version : <b>2</b></h1>'
 # new version update to test new webhook
 
 @app.route('/test')
